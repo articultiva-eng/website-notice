@@ -1,51 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="An important announcement from our website.">
-  <title>Announcement</title>
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Articultivate is a proposed English neologism coined by Nemanja Dzokic in 2025. This page documents its definition, pronunciation, and relation to Articultiva.">
+  <title>Articultivate — Word Definition and Coinage Record</title>
   <style>
-    * { box-sizing: border-box; }
-
-    html, body { margin: 0; min-height: 100%; }
-
-    body {
-      min-height: 100vh;
-      min-height: 100dvh;
-      display: grid;
-      place-items: center;
-      padding: 2rem;
-      background-color: #30343a;
-      background-image:
-      linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10)),
-      url("https://articultiva.com/cdn/shop/files/articultivate_background.jpg?v=1793758899");
-      
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      font-family: Arial, Helvetica, sans-serif;
-      color: #fff;
-      text-align: center;
-    }
-
-    main { width: 100%; max-width: 760px; }
-
-    p {
-      margin: 0;
-      font-size: clamp(1.35rem, 2.5vw, 2rem);
-      font-weight: 400;
-      line-height: 1.55;
-      text-shadow: 0 2px 11px rgba(0, 0, 0, 0.65);
-      text-wrap: pretty;
+    :root { --ink:#7B7B7A; --muted:#7B7B7A; --blue:#1a73e8; --line:#c2c2c2; --soft:#E4E4E4; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; background:#E4E4E4; color:var(--ink); font-family:Arial,Helvetica,sans-serif; line-height:1.56; }
+    .topline { height:5px; background:linear-gradient(90deg,#e8f0fe,#fff 82%); border-bottom:1px solid #f0f2f4; }
+    .shell { max-width:1120px; margin:0 auto; padding:44px 28px 80px; }
+    .eyebrow { display:flex; align-items:center; gap:11px; color:var(--ink); font-size:13px; margin-bottom:20px; }
+    .asterisk { color:var(--blue); font-size:22px; line-height:1; }
+    .columns { display:grid; grid-template-columns:minmax(0,1.8fr) minmax(255px,1fr); gap:70px; align-items:start; }
+    h1 { margin:0 0 5px; font-size:clamp(38px,5vw,49px); line-height:1.15; font-weight:700; letter-spacing:-1.2px; }
+    .pronunciation { font-size:17px; color:var(--muted); margin-bottom:14px; }
+    .part { display:inline-block; color:var(--ink); font-size:14px; margin-bottom:22px; }
+    .intro { max-width:650px; margin:0 0 32px; font-size:16px; }
+    h2 { margin:35px 0 13px; font-size:19px; line-height:1.3; }
+    .definition { margin:0 0 12px; font-size:16px; }
+    .definition strong { font-weight:700; }
+    .note { color:var(--muted); font-size:13px; }
+    .examples { padding-left:21px; margin:8px 0 12px; }
+    .examples li { padding-left:3px; margin-bottom:12px; }
+    .text-section { max-width:660px; }
+    /* Slightly smaller body text in Origin and Coinage, preserving headings and fine print. */
+    section[aria-labelledby="origin"] > p, .record > p:not(.note) { font-size:15px; }
+    .side { border:1px solid #c2c2c2; border-radius:18px; padding:22px 24px; background:#E4E4E4; }
+    .side h2 { font-size:18px; margin:0 0 15px; }
+    .fact { border-top:1px solid var(--line); padding:13px 0; font-size:14px; }
+    .fact:first-of-type { border-top:0; padding-top:0; }
+    .fact-label { display:block; color:var(--muted); font-size:12px; letter-spacing:.01em; margin-bottom:3px; }
+    .fact-value { font-weight:600; overflow-wrap:anywhere; }
+    .side p { color:var(--muted); margin:12px 0 0; font-size:13px; }
+    .record { margin-top:35px; border-top:1px solid var(--line); padding-top:25px; }
+    .record h2 { margin-top:0; }
+    footer { margin-top:62px; padding-top:18px; border-top:1px solid var(--line); color:var(--muted); font-size:12px; }
+    a { color:var(--ink); text-decoration:underline; text-underline-offset:2px; }
+    @media(max-width:760px) {
+      .shell { padding:26px 22px 50px; }
+      .columns { grid-template-columns:1fr; gap:34px; }
+      .side { max-width:560px; }
+      .intro { margin-bottom:22px; }
+      h2 { margin-top:27px; }
+      footer { margin-top:36px; }
     }
   </style>
 </head>
 <body>
-  <main>
-    <p>The name Articultiva comes from the word Articultivate (meaning "to cultivate art") which is a new English word coined by our founder and CEO Nemanja Dzokic in 2025, to best describe the essence of our mission. 
+  <div class="topline"></div>
+  <main class="shell">
+    <div class="eyebrow"><span class="asterisk" aria-hidden="true">✦</span><span>Original word · Public coinage record</span></div>
+    <div class="columns">
+      <article>
+        <h1>articultivate</h1>
+        <div class="pronunciation">/ɑːrˈtɪk.jəl.tɪ.veɪt/ &nbsp;·&nbsp; ar-TIC-yul-tih-vayt</div>
+        <div class="part">verb · English neologism</div>
+        <p class="intro">A newly coined term presented here with its intended definition, pronunciation, and examples of use. This page also documents the creator’s claim of authorship.</p>
 
-Our mission is to cultivate art, foster good taste, and enrich people's lives by transforming their living spaces with our exclusive collection of handcrafted decorative products.</p>
+        <section class="text-section" aria-labelledby="meaning">
+          <h2 id="meaning">1. Meaning</h2>
+          <p class="definition"><strong>articultivate</strong> <em>(verb)</em>: To cultivate art</p>
+          <p class="definition">To promote appreciation and presence of art in everyday life.</p>
+        </section>
+
+        <section class="text-section" aria-labelledby="usage">
+          <h2 id="usage">2. Examples of usage</h2>
+          <ul class="examples">
+            <li>“Through exhibitions and workshops, the organization hopes to <strong>articultivate</strong> its community.”</li>
+            <li>“Her goal as an educator is to <strong>articultivate</strong> young people by encouraging them to create and appreciate art.”</li>
+            <li>“By bringing handcrafted ceramics into everyday spaces, Articultiva seeks to <strong>articultivate</strong>.”</li>
+          </ul>
+        </section>
+
+        <section class="text-section" aria-labelledby="origin">
+          <h2 id="origin">3. Origin and related name</h2>
+          <p>The word <strong>articultivate</strong> was coined by Nemanja Dzokic in 2025 by combining <em>arti-</em>, referring to art, with <em>cultivate</em>, to express the idea of cultivating art. The term also inspired the name of <strong><a href="https://articultiva.com">Articultiva</a></strong>, the handcrafted decorative ceramics business he founded, whose mission reflects this same concept.</p>
+          <p>The business name <strong><a href="https://articultiva.com">Articultiva</a></strong> is derived from <em>articultivate</em> and reflects the company’s mission: to cultivate art, foster good taste, and enrich people’s lives by transforming their living spaces with an exclusive collection of handcrafted decorative products.</p>
+        </section>
+
+        <section class="text-section record" aria-labelledby="record">
+          <h2 id="record">Coinage statement</h2>
+          <p>I, <strong>Nemanja Dzokic</strong>, coined the English word <strong>articultivate</strong> in <strong>2025</strong>, meaning “to cultivate art.” I also registered the corresponding domain name, <strong>articultivate.com</strong>, in 2025.</p>
+          <p>This website documents the word’s spelling, intended meaning, pronunciation, and examples of usage, as well as its relationship to Articultiva. Based on my research, I am not aware of any earlier use of this exact word.</p>
+          <p class="note">This statement records the creator’s account of the word’s origin; it is not a claim of exhaustive proof against all prior usage.</p>
+          <p class="note"><strong>Creator:</strong> Nemanja Dzokic · <strong>First publication of this definition:</strong> November 3, 2026</p>
+        </section>
+      </article>
+
+      <aside class="side" aria-label="Documentation details">
+        <h2>Coinage details</h2>
+        <div class="fact"><span class="fact-label">Word</span><span class="fact-value">articultivate</span></div>
+        <div class="fact"><span class="fact-label">Part of speech</span><span class="fact-value">Verb</span></div>
+        <div class="fact"><span class="fact-label">Classification</span><span class="fact-value">Proposed English neologism</span></div>
+        <div class="fact"><span class="fact-label">Meaning</span><span class="fact-value">To cultivate art</span></div>
+        <div class="fact"><span class="fact-label">Expanded meaning</span><span class="fact-value">To promote appreciation and presence of art in everyday life</span></div>
+        <div class="fact"><span class="fact-label">Creator</span><span class="fact-value">Nemanja Dzokic</span></div>
+        <div class="fact"><span class="fact-label">Year coined</span><span class="fact-value">2025</span></div>
+        <div class="fact"><span class="fact-label">Matching domain registered</span><span class="fact-value">2025 (creator’s statement)</span></div>
+        <div class="fact"><span class="fact-label">Related business name</span><span class="fact-value"><a href="https://articultiva.com">Articultiva</a></span></div>
+        <div class="fact"><span class="fact-label">Public documentation</span><span class="fact-value">This website and its published source history</span></div>
+        <p>Spelling, definition, pronunciation, and examples are provided by the word’s creator.</p>
+      </aside>
+    </div>
+    <footer>Articultivate · A public record of word coinage by Nemanja Dzokic. Not affiliated with Google or any dictionary publisher.</footer>
   </main>
 </body>
 </html>
